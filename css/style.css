@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: content-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: blueviolet;
+}
+
+header{
+    display: flex;
+    background: rgb(156, 156, 206);
+}
+
+.header_logo{  
+    width: 200px;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-flow: wrap;   
+    gap: 10px;
+}
+
+.card, .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box_image{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-width: 200px;
+    height: 200px;
+}
+
+.image_product{
+    width: 200px;    
+    object-fit: cover; 
+}
+
+.nombre{
+    margin: 0;
+    display: flex;
+    text-align: right ;
+    color: black;
+    font-size: 50px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
